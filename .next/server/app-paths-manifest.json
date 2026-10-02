@@ -1,1 +1,10 @@
-{}
+{
+  "/page": "app/page.js",
+  "/api/ai/insights/route": "app/api/ai/insights/route.js",
+  "/api/transactions/summary/route": "app/api/transactions/summary/route.js",
+  "/transactions/page": "app/transactions/page.js",
+  "/budgets/page": "app/budgets/page.js",
+  "/api/transactions/route": "app/api/transactions/route.js",
+  "/advisor/page": "app/advisor/page.js",
+  "/reports/page": "app/reports/page.js"
+}

@@ -194,8 +194,9 @@ export const AIService = {
 
     // Check if OpenAI API Key is provided
     const apiKey = process.env.OPENAI_API_KEY;
-
+    console.log("[API KEY] 123", apiKey);
     if (apiKey && apiKey.trim() !== '') {
+      console.log("[API KEY]", apiKey);
       try {
         console.log('[OpenAI] Sending query to OpenAI Chat Completion API...');
         const openai = new OpenAI({ apiKey });
